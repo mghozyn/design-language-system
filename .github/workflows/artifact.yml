@@ -17,4 +17,4 @@ jobs:
     - uses: actions/upload-artifact@v2
       with:
         name: build-artifact
-        path:  /home/runner/work/design-language-system/design-language-system/
+        path:  ${{ github.workspace }}/

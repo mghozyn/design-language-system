@@ -16,5 +16,5 @@ jobs:
 
     - uses: actions/upload-artifact@v2
       with:
-        name: build-artifact
+        name: ${{ github.event.repository.name }}_${{ github.head_ref }}
         path:  ${{ github.workspace }}/
